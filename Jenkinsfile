@@ -49,7 +49,7 @@ spec:
     stage('Deploy to staging') {
       environment {
         GIT_CREDS = credentials('github')
-        GIT_REPO_URL = "https://github.com/suhasdevmd/rsvpapp-kustomize"
+        GIT_REPO_URL = "github.com/suhasdevmd/rsvpapp-kustomize.git"
         GIT_REPO_EMAIL = 'sdev32@gmail.com'
         GIT_REPO_BRANCH = "master"
        // Update above variables with your user details
